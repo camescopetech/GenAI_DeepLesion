@@ -1,6 +1,6 @@
 # DirVAE vs GVAE — Comparaison équitable sur DeepLesion
 
-Projet réalisé dans le cadre du cours **GenAI (ING3 — MLOps)**.
+Projet réalisé dans le cadre du cours **GenAI (ING3 IA A)** par Bezet Camille, Brasa Franklin, Kenmogne Loïc et Martins Soares Flavio.
 
 ## Objectif
 
