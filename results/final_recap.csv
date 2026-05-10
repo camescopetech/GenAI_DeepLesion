@@ -1,0 +1,6 @@
+Métrique,DirVAE,GVAE
+Recon val (↓),186.4642,179.9051
+SSIM val (↑),0.6651,0.6557
+NMI K-Means organe (↑),0.2816,0.3350
+NMI CLASSIX organe (↑),0.3694,0.4006
+MIG organe (↑),0.0017,0.0169
