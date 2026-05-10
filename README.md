@@ -22,29 +22,6 @@ L'évaluation porte sur **tous les types de lésions** (8 classes d'organes) et 
 ```
 GenAI_DeepLesion/
 ├── main.ipynb          # Notebook principal (tout le code)
-└── results/
-    ├── DirVAE/
-    │   ├── checkpoint.pt       # Poids + historique d'entraînement
-    │   └── curves.png          # Courbes loss / recon / SSIM
-    ├── GVAE/
-    │   ├── checkpoint.pt
-    │   └── curves.png
-    ├── latents_dirvae.npy      # Latents du probe set (DirVAE)
-    ├── latents_gvae.npy        # Latents du probe set (GVAE)
-    ├── probe_organ.npy         # Labels organe (Coarse_lesion_type)
-    ├── probe_malig.npy         # Labels malignité (proxy)
-    ├── emb_dirvae.npy          # Embeddings UMAP 2D (DirVAE)
-    ├── emb_gvae.npy            # Embeddings UMAP 2D (GVAE)
-    ├── key_figure_umap.png     # Panel 2×2 UMAP (organe + malignité)
-    ├── kmeans_metrics.csv      # NMI / AMI / ARI / pureté K-Means
-    ├── classix_metrics.csv     # Sweep CLASSIX par radius
-    ├── mig_scores.csv          # MIG scores
-    ├── mig_per_dim.png         # MI par dimension latente
-    ├── projection_dirvae.png   # Projection sur v_organe (DirVAE)
-    ├── projection_gvae.png     # Projection sur v_organe (GVAE)
-    ├── traversal_comparison.png # Grille 5×5 DirVAE vs GVAE
-    ├── final_recap.csv         # Tableau récap toutes métriques
-    └── final_recap.md          # Tableau récap (Markdown)
 ```
 
 Tout le pipeline est contenu dans **un seul notebook** (`main.ipynb`), structuré en 14 sections numérotées.
